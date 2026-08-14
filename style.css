@@ -101,6 +101,14 @@ h1 {
   font-size: 32px;
 }
 
+.ad-slot {
+  max-height: 280px;
+  overflow: hidden;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
 .footer-link {
   display: inline-block;
   margin-top: 32px;
