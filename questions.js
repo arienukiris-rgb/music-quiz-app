@@ -160,6 +160,81 @@ const QUIZ_DATA = {
         question: "「フィガロの結婚」「ドン・ジョヴァンニ」などの傑作オペラを手がけた作曲家は？",
         choices: ["モーツァルト", "ベートーヴェン", "ハイドン", "サリエリ"],
         answerIndex: 0
+      },
+      {
+        question: "「アイネ・クライネ・ナハトムジーク」を作曲したのは？",
+        choices: ["モーツァルト", "ハイドン", "ベートーヴェン", "シューベルト"],
+        answerIndex: 0
+      },
+      {
+        question: "バッハが教会のために数多く手がけた、宗教的な声楽曲を何という？",
+        choices: ["カンタータ", "シンフォニー", "ソナタ", "コンチェルト"],
+        answerIndex: 0
+      },
+      {
+        question: "「英雄」の愛称で知られるベートーヴェンの交響曲第3番の原題（イタリア語）は？",
+        choices: ["エロイカ", "パストラーレ", "コラール", "レクイエム"],
+        answerIndex: 0
+      },
+      {
+        question: "ピアノとオーケストラのために書かれた楽曲を何という？",
+        choices: ["ピアノ協奏曲", "ピアノソナタ", "交響曲", "室内楽"],
+        answerIndex: 0
+      },
+      {
+        question: "「英雄ポロネーズ」などポーランドの民族舞曲を数多く手がけたショパンの出身国は？",
+        choices: ["ポーランド", "ハンガリー", "ロシア", "チェコ"],
+        answerIndex: 0
+      },
+      {
+        question: "「ハンガリー狂詩曲」で知られる、超絶技巧のピアニストとしても有名な作曲家は？",
+        choices: ["リスト", "ショパン", "ブラームス", "シューマン"],
+        answerIndex: 0
+      },
+      {
+        question: "オーケストラの楽器分類のうち、弦楽器・打楽器・金管楽器と並ぶもう一つのグループは？",
+        choices: ["木管楽器", "鍵盤楽器", "電子楽器", "撥弦楽器"],
+        answerIndex: 0
+      },
+      {
+        question: "トロンボーンやトランペットが属する、金属でできた管楽器の総称は？",
+        choices: ["金管楽器", "木管楽器", "弦楽器", "打楽器"],
+        answerIndex: 0
+      },
+      {
+        question: "バレエ音楽「眠れる森の美女」を作曲したのは？",
+        choices: ["チャイコフスキー", "プロコフィエフ", "ストラヴィンスキー", "ハチャトゥリアン"],
+        answerIndex: 0
+      },
+      {
+        question: "楽譜の最初に書かれ、曲の調（キー）を示す記号を何という？",
+        choices: ["調号", "拍子記号", "速度記号", "強弱記号"],
+        answerIndex: 0
+      },
+      {
+        question: "交響曲第40番でも知られる、モーツァルトが好んで用いた短調は？",
+        choices: ["ト短調", "ハ長調", "ニ長調", "イ短調"],
+        answerIndex: 0
+      },
+      {
+        question: "「カルミナ・ブラーナ」の「おお、運命の女神よ」で知られる作曲家は？",
+        choices: ["カール・オルフ", "リヒャルト・シュトラウス", "グスタフ・マーラー", "アントン・ブルックナー"],
+        answerIndex: 0
+      },
+      {
+        question: "オペラ序曲としても有名な「ウィリアム・テル」を作曲したのは？",
+        choices: ["ロッシーニ", "ヴェルディ", "プッチーニ", "ドニゼッティ"],
+        answerIndex: 0
+      },
+      {
+        question: "バレエ音楽「ボレロ」を作曲したフランスの作曲家は？",
+        choices: ["ラヴェル", "ドビュッシー", "サティ", "フォーレ"],
+        answerIndex: 0
+      },
+      {
+        question: "楽器を使わず、人の声だけで演奏される音楽を何という？",
+        choices: ["アカペラ", "インストゥルメンタル", "オーケストラ", "アンサンブル"],
+        answerIndex: 0
       }
     ]
   },
@@ -317,6 +392,76 @@ const QUIZ_DATA = {
         question: "多くの名盤で共演し、「ジャズの帝王」マイルス・デイヴィスのバンドに在籍した経験も持つサックス奏者は？",
         choices: ["ジョン・コルトレーン", "スタン・ゲッツ", "チャーリー・パーカー", "ベニー・グッドマン"],
         answerIndex: 0
+      },
+      {
+        question: "「聖者の行進」として知られるニューオーリンズジャズの定番曲の原題は？",
+        choices: ["When the Saints Go Marching In", "Basin Street Blues", "Ain't Misbehavin'", "Sweet Georgia Brown"],
+        answerIndex: 0
+      },
+      {
+        question: "ジャズの基本的な12小節のコード進行パターンを何という？",
+        choices: ["ブルース進行", "ツーファイブワン", "ターンバック", "リフ"],
+        answerIndex: 0
+      },
+      {
+        question: "「Kind of Blue」でマイルス・デイヴィスと共演したピアニストは？",
+        choices: ["ビル・エヴァンス", "セロニアス・モンク", "オスカー・ピーターソン", "ハービー・ハンコック"],
+        answerIndex: 0
+      },
+      {
+        question: "アメリカのジャズを代表する、女性ピアニスト兼作曲家として知られるのは？",
+        choices: ["メアリー・ルー・ウィリアムズ", "ダイアナ・クラール", "ノラ・ジョーンズ", "アリス・コルトレーン"],
+        answerIndex: 0
+      },
+      {
+        question: "アルトサックスとテナーサックスのうち、より低い音域を持つのは？",
+        choices: ["テナーサックス", "アルトサックス", "どちらも同じ", "ソプラノサックス"],
+        answerIndex: 0
+      },
+      {
+        question: "ジャズでよく使われる「4ビート」とは、1小節に何拍あることを示す？",
+        choices: ["4拍", "2拍", "3拍", "8拍"],
+        answerIndex: 0
+      },
+      {
+        question: "トランペット、トロンボーンと並ぶ、初期ジャズで使われた主要な金管楽器は？",
+        choices: ["コルネット", "フルート", "クラリネット", "ヴィブラフォン"],
+        answerIndex: 0
+      },
+      {
+        question: "金属製の丸い板を叩いて鳴らす、ジャズドラムセットに欠かせない打楽器は？",
+        choices: ["シンバル", "コンガ", "ボンゴ", "カウベル"],
+        answerIndex: 0
+      },
+      {
+        question: "「テイク・ファイブ」を実際に作曲した、デイヴ・ブルーベック・カルテットのサックス奏者は？",
+        choices: ["ポール・デスモンド", "ジェリー・マリガン", "スタン・ゲッツ", "ザ・カウント"],
+        answerIndex: 0
+      },
+      {
+        question: "複数の楽器が同時に自由な即興演奏を行う、初期ニューオーリンズジャズの演奏手法を何という？",
+        choices: ["コレクティブ・インプロビゼーション", "ユニゾン", "ソロ", "デュエット"],
+        answerIndex: 0
+      },
+      {
+        question: "デューク・エリントン楽団のテーマ曲「A列車で行こう」を実際に作曲した編曲者は？",
+        choices: ["ビリー・ストレイホーン", "ベニー・カーター", "フレッチャー・ヘンダーソン", "ドン・レッドマン"],
+        answerIndex: 0
+      },
+      {
+        question: "ジャズの世界で「セッション」とは、一般的に何を指す？",
+        choices: ["即興的な演奏の集まり", "レコーディングの単位", "ライブ会場", "レッスンの時間"],
+        answerIndex: 0
+      },
+      {
+        question: "スイングジャズの時代、ビッグバンドの演奏に合わせて踊られた、テンポの速いダンスは？",
+        choices: ["リンディホップ", "タンゴ", "ワルツ", "サルサ"],
+        answerIndex: 0
+      },
+      {
+        question: "マイルス・デイヴィスが1970年前後にロックやファンクを取り入れ、フュージョンの先駆けとなったアルバムは？",
+        choices: ["Bitches Brew", "Kind of Blue", "Sketches of Spain", "Milestones"],
+        answerIndex: 0
       }
     ]
   },
@@ -381,7 +526,7 @@ const QUIZ_DATA = {
         answerIndex: 0
       },
       {
-        question: "イギリス出身で、バンド「クイーン」のボーカルを務めたのは？",
+        question: "「ボヘミアン・ラプソディ」などで知られる、バンド「クイーン」のボーカルを務めたのは？",
         choices: ["フレディ・マーキュリー", "ブライアン・メイ", "ロジャー・テイラー", "ジョン・ディーコン"],
         answerIndex: 0
       },
@@ -473,6 +618,71 @@ const QUIZ_DATA = {
       {
         question: "コンサートなどで観客がステージに向かって身を投げ出し、人の波の上を運ばれていく行為を何という？",
         choices: ["ダイブ（クラウドサーフ）", "モッシュ", "ヘッドバンギング", "ジャンプ"],
+        answerIndex: 0
+      },
+      {
+        question: "「サティスファクション」の大ヒットで知られる、ミック・ジャガー率いるイギリスのバンドは？",
+        choices: ["ザ・ローリング・ストーンズ", "ザ・フー", "ザ・キンクス", "スモール・フェイセス"],
+        answerIndex: 0
+      },
+      {
+        question: "ロックンロールの創始者的存在とされる、ギタリスト兼シンガーは？",
+        choices: ["チャック・ベリー", "エルヴィス・プレスリー", "リトル・リチャード", "バディ・ホリー"],
+        answerIndex: 0
+      },
+      {
+        question: "「Born in the U.S.A.」で知られるアメリカのロックスターは？",
+        choices: ["ブルース・スプリングスティーン", "ボン・ジョヴィ", "ビリー・ジョエル", "ニール・ヤング"],
+        answerIndex: 0
+      },
+      {
+        question: "パンクロックの精神を受け継ぎつつポップに昇華させた、1970年代後半のイギリス発のジャンルは？",
+        choices: ["ニュー・ウェイヴ", "グランジ", "ブリットポップ", "サイケデリック"],
+        answerIndex: 0
+      },
+      {
+        question: "1990年代のイギリスで、オアシスとブラーの人気競争が話題になったロックムーブメントは？",
+        choices: ["ブリットポップ", "グランジ", "パンク", "ニュー・ウェイヴ"],
+        answerIndex: 0
+      },
+      {
+        question: "「ドント・ルック・バック・イン・アンガー」などのヒット曲で知られるイギリスのバンドは？",
+        choices: ["オアシス", "ブラー", "レディオヘッド", "コールドプレイ"],
+        answerIndex: 0
+      },
+      {
+        question: "「イエスタデイ」を作曲したとされる、ザ・ビートルズのメンバーは？",
+        choices: ["ポール・マッカートニー", "ジョン・レノン", "ジョージ・ハリスン", "リンゴ・スター"],
+        answerIndex: 0
+      },
+      {
+        question: "標準的なベースギターの弦は通常何本？",
+        choices: ["4本", "6本", "5本", "8本"],
+        answerIndex: 0
+      },
+      {
+        question: "アメリカを代表するロックバンド「エアロスミス」のボーカルは？",
+        choices: ["スティーヴン・タイラー", "ジョー・ペリー", "ブラッド・ウィットフォード", "トム・ハミルトン"],
+        answerIndex: 0
+      },
+      {
+        question: "「ドント・ストップ・ビリーヴィン」の大ヒットで知られるアメリカのバンドは？",
+        choices: ["ジャーニー", "ボストン", "カンサス", "スティックス"],
+        answerIndex: 0
+      },
+      {
+        question: "コンサートで観客が体をぶつけ合いながら踊る、激しいダンススタイルを何という？",
+        choices: ["モッシュ", "ヘッドバンギング", "クラウドサーフ", "ポゴ"],
+        answerIndex: 0
+      },
+      {
+        question: "リズムに合わせて頭を激しく振る、ヘヴィメタルのライブでよく見られる仕草を何という？",
+        choices: ["ヘッドバンギング", "モッシュ", "ポゴ", "クラウドサーフ"],
+        answerIndex: 0
+      },
+      {
+        question: "ギターの弦を押さえず、金属の棒（スライドバー）を使って独特な音を出す奏法を何という？",
+        choices: ["スライドギター", "タッピング", "チョーキング", "ハーモニクス"],
         answerIndex: 0
       }
     ]
@@ -583,7 +793,7 @@ const QUIZ_DATA = {
         answerIndex: 0
       },
       {
-        question: "「白日」「Pretender」などのヒット曲で知られる4人組バンドは？",
+        question: "「白日」「どろん」などのヒット曲で知られる4人組バンドは？",
         choices: ["King Gnu", "Official髭男dism", "back number", "Mrs. GREEN APPLE"],
         answerIndex: 0
       },
@@ -630,6 +840,81 @@ const QUIZ_DATA = {
       {
         question: "DAOKOとのコラボ曲「打上花火」で大きな話題となったアーティストは？",
         choices: ["米津玄師", "RADWIMPS", "King Gnu", "星野源"],
+        answerIndex: 0
+      },
+      {
+        question: "1990年代に「亜麻色の髪の乙女」のカバーを大ヒットさせたロックバンドは？",
+        choices: ["THE ALFEE", "サザンオールスターズ", "爆風スランプ", "TUBE"],
+        answerIndex: 0
+      },
+      {
+        question: "「ロビンソン」「チェリー」などのヒットで知られるバンド「スピッツ」が結成されたのはいつ頃？",
+        choices: ["1980年代後半", "1970年代", "1990年代後半", "2000年代"],
+        answerIndex: 0
+      },
+      {
+        question: "シンガーソングライター・あいみょんの出身地は？",
+        choices: ["兵庫県", "大阪府", "京都府", "奈良県"],
+        answerIndex: 0
+      },
+      {
+        question: "「Official髭男dism」というバンド名の正しい読み方は？",
+        choices: ["オフィシャルヒゲダンディズム", "オフィシャルヒゲメンズム", "オフィシャルビゲダンディズム", "オフィシャルヒゲダニズム"],
+        answerIndex: 0
+      },
+      {
+        question: "「三代目 J Soul Brothers」など多数のダンス&ボーカルグループが所属する芸能事務所は？",
+        choices: ["LDH", "ジャニーズ事務所", "エイベックス", "アミューズ"],
+        answerIndex: 0
+      },
+      {
+        question: "「survival dAnce ~no no cry more~」などのヒットで知られる、1990年代の日本のダンスユニットは？",
+        choices: ["TRF", "EXILE", "w-inds.", "DA PUMP"],
+        answerIndex: 0
+      },
+      {
+        question: "乃木坂46は、2011年の結成時にAKB48のどのような位置づけとして発表された？",
+        choices: ["公式ライバルグループ", "姉妹グループ", "後継グループ", "対抗ユニット"],
+        answerIndex: 0
+      },
+      {
+        question: "日本レコード大賞の通称として使われる略称は？",
+        choices: ["レコ大", "紅白", "ミュージックアワード", "JASRACアワード"],
+        answerIndex: 0
+      },
+      {
+        question: "J-POPの楽曲構成で、Aメロとサビの間にある盛り上げのパートを一般に何と呼ぶ？",
+        choices: ["Bメロ", "サビ", "イントロ", "アウトロ"],
+        answerIndex: 0
+      },
+      {
+        question: "日本の音楽チャートとして長年権威あるランキングの一つとされてきた老舗媒体は？",
+        choices: ["オリコン", "Billboard JAPAN", "Spotify", "TikTok"],
+        answerIndex: 0
+      },
+      {
+        question: "宇多田ヒカルがデビュー当初、日本語と何語を織り交ぜた歌詞で話題になった？",
+        choices: ["英語", "フランス語", "中国語", "韓国語"],
+        answerIndex: 0
+      },
+      {
+        question: "コブクロは何人組の音楽ユニット？",
+        choices: ["2人", "3人", "4人", "1人"],
+        answerIndex: 0
+      },
+      {
+        question: "ゆずは何人組の音楽ユニット？",
+        choices: ["2人", "3人", "4人", "1人"],
+        answerIndex: 0
+      },
+      {
+        question: "1990年代から2000年代にかけて、小室哲哉が手がけたヒット曲群の音楽性は通称何と呼ばれた？",
+        choices: ["小室サウンド", "渋谷系", "J-R&B", "シティポップ"],
+        answerIndex: 0
+      },
+      {
+        question: "海外で再評価され「シティポップ」ブームの火付け役となった楽曲「プラスティック・ラブ」を歌ったのは？",
+        choices: ["竹内まりや", "山下達郎", "松原みき", "大貫妙子"],
         answerIndex: 0
       }
     ]
@@ -771,7 +1056,7 @@ const QUIZ_DATA = {
       },
       {
         question: "「STEINS;GATE」のオープニング主題歌「Hacking to the Gate」を歌ったのは？",
-        choices: ["伊藤賀那子", "LiSA", "ClariS", "fripSide"],
+        choices: ["いとうかなこ", "LiSA", "ClariS", "fripSide"],
         answerIndex: 0
       },
       {
@@ -787,6 +1072,76 @@ const QUIZ_DATA = {
       {
         question: "「鋼の錬金術師」の初代オープニング主題歌「メリッサ」を歌ったバンドは？",
         choices: ["ポルノグラフィティ", "L'Arc-en-Ciel", "UVERworld", "サンボマスター"],
+        answerIndex: 0
+      },
+      {
+        question: "「魔法少女まどか☆マギカ」のオープニング主題歌「コネクト」を歌ったのは？",
+        choices: ["ClariS", "茅原実里", "fripSide", "ChouCho"],
+        answerIndex: 0
+      },
+      {
+        question: "「Fate/Zero」の主題歌「oath sign」を歌ったのは？",
+        choices: ["LiSA", "ClariS", "Aimer", "ChouCho"],
+        answerIndex: 0
+      },
+      {
+        question: "「けいおん!」のオープニング主題歌「Cagayake!GIRLS」を歌う、劇中の設定上のバンド名は？",
+        choices: ["放課後ティータイム", "スタァライト九九組", "Poppin'Party", "ROSELIA"],
+        answerIndex: 0
+      },
+      {
+        question: "「ラブライブ!」の楽曲を歌う、作中の人気アイドルユニット名は？",
+        choices: ["μ's", "Aqours", "ニジガク", "スタァライト"],
+        answerIndex: 0
+      },
+      {
+        question: "「約束のネバーランド」の初代オープニング主題歌「Touch off」を歌ったのは？",
+        choices: ["cinema staff", "UVERworld", "高橋洋子", "米津玄師"],
+        answerIndex: 0
+      },
+      {
+        question: "「Dr.STONE」の初代オープニング主題歌「好きだ」を歌ったバンドは？",
+        choices: ["BURNOUT SYNDROMES", "ORANGE RANGE", "UVERworld", "フジファブリック"],
+        answerIndex: 0
+      },
+      {
+        question: "「ワンパンマン」のオープニング主題歌「THE HERO!!」を歌ったのは？",
+        choices: ["JAM Project", "影山ヒロノブ", "水木一郎", "遠藤正明"],
+        answerIndex: 0
+      },
+      {
+        question: "「銀魂」の初代オープニング主題歌「全力少年」を歌ったロックバンドは？",
+        choices: ["DOES", "フジファブリック", "サンボマスター", "ゴールデンボンバー"],
+        answerIndex: 0
+      },
+      {
+        question: "「東京喰種トーキョーグール」のオープニング主題歌「unravel」を歌ったのは？",
+        choices: ["TK from 凛として時雨", "LiSA", "Aimer", "ヒトリエ"],
+        answerIndex: 0
+      },
+      {
+        question: "「四月は君の嘘」のオープニング主題歌「光るなら」を歌ったバンドは？",
+        choices: ["Goose house", "RADWIMPS", "YUKI", "いきものがかり"],
+        answerIndex: 0
+      },
+      {
+        question: "「機動戦士ガンダムSEED」のオープニング主題歌「INVOKE」を歌ったのは？",
+        choices: ["T.M.Revolution", "GACKT", "L'Arc-en-Ciel", "B'z"],
+        answerIndex: 0
+      },
+      {
+        question: "「新世紀エヴァンゲリオン」の劇伴（BGM）音楽を手がけた作曲家は？",
+        choices: ["鷺巣詩郎", "久石譲", "菅野よう子", "川井憲次"],
+        answerIndex: 0
+      },
+      {
+        question: "スタジオジブリ作品の音楽を数多く手がけていることで知られる作曲家は？",
+        choices: ["久石譲", "鷺巣詩郎", "菅野よう子", "千住明"],
+        answerIndex: 0
+      },
+      {
+        question: "「カウボーイビバップ」の音楽を手がけたことで知られる、ジャズやロックなど幅広いジャンルを操る作曲家は？",
+        choices: ["菅野よう子", "久石譲", "鷺巣詩郎", "川井憲次"],
         answerIndex: 0
       }
     ]
@@ -944,6 +1299,81 @@ const QUIZ_DATA = {
       {
         question: "多くのファンに「誕生日」として祝われている、初音ミクの発売日は？",
         choices: ["8月31日", "3月9日", "12月27日", "4月1日"],
+        answerIndex: 0
+      },
+      {
+        question: "ハチ（米津玄師）の楽曲「パンダヒーロー」を歌うボーカロイドは？",
+        choices: ["GUMI", "初音ミク", "鏡音リン", "神威がくぽ"],
+        answerIndex: 0
+      },
+      {
+        question: "ハチ（米津玄師）の代表曲「マトリョシカ」で、初音ミクとデュエットしたボーカロイドは？",
+        choices: ["GUMI", "鏡音リン", "巡音ルカ", "IA"],
+        answerIndex: 0
+      },
+      {
+        question: "低く男性的な声が特徴のボーカロイド「がくっぽいど」の声のもとになった、日本の男性ミュージシャンは？",
+        choices: ["GACKT", "布袋寅泰", "X JAPAN", "L'Arc-en-Ciel"],
+        answerIndex: 0
+      },
+      {
+        question: "「ボカロP」という呼び名の「P」は、何の略とされる？",
+        choices: ["プロデューサー", "パフォーマー", "プレイヤー", "プログラマー"],
+        answerIndex: 0
+      },
+      {
+        question: "「メルト」のヒットをきっかけに「初音ミクブーム」が大きく広がったとされるのは何年頃？",
+        choices: ["2007年", "2005年", "2010年", "2015年"],
+        answerIndex: 0
+      },
+      {
+        question: "ボーカロイド曲などを人が実際に歌ってニコニコ動画に投稿する動画ジャンルを何という？",
+        choices: ["歌ってみた", "弾いてみた", "踊ってみた", "描いてみた"],
+        answerIndex: 0
+      },
+      {
+        question: "ボーカロイド曲などを実際の楽器で演奏して投稿する動画ジャンルを何という？",
+        choices: ["弾いてみた", "歌ってみた", "踊ってみた", "MMD"],
+        answerIndex: 0
+      },
+      {
+        question: "ボーカロイド曲に合わせてキャラクターを3DCGで踊らせる動画によく使われる、無料の制作ツールは？",
+        choices: ["MMD（MikuMikuDance）", "Blender", "Maya", "Unity"],
+        answerIndex: 0
+      },
+      {
+        question: "「千本桜」がテレビCMや紅白歌合戦にも使われ、ボーカロイド文化が広く一般に知られるきっかけとなったのはおよそ何年頃？",
+        choices: ["2011年前後", "2007年前後", "2015年前後", "2020年前後"],
+        answerIndex: 0
+      },
+      {
+        question: "クリプトン社の公式設定における、初音ミクの身長は？",
+        choices: ["158cm", "150cm", "165cm", "170cm"],
+        answerIndex: 0
+      },
+      {
+        question: "クリプトン社の公式設定における、初音ミクの年齢は？",
+        choices: ["16歳", "14歳", "18歳", "20歳"],
+        answerIndex: 0
+      },
+      {
+        question: "クリプトン社の公式設定における、鏡音リン・レンの年齢は？",
+        choices: ["14歳", "16歳", "18歳", "12歳"],
+        answerIndex: 0
+      },
+      {
+        question: "ボカロP「DECO*27」の代表曲「ゴーストルール」を歌うボーカロイドは？",
+        choices: ["初音ミク", "GUMI", "鏡音リン", "IA"],
+        answerIndex: 0
+      },
+      {
+        question: "ボーカロイド「GUMI」の声を担当している声優は？",
+        choices: ["中島愛", "花澤香菜", "悠木碧", "早見沙織"],
+        answerIndex: 0
+      },
+      {
+        question: "クリプトン社の公式設定における、初音ミクの体重は？",
+        choices: ["42kg", "38kg", "45kg", "50kg"],
         answerIndex: 0
       }
     ]
