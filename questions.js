@@ -1236,7 +1236,7 @@ const QUIZ_DATA = {
       },
       {
         question: "「ONE PIECE」の記念すべき初代オープニング主題歌は？",
-        choices: ["ウィーアー!", "冒険夜想曲", "RUN! RUN! RUN!", "ハイキンー"],
+        choices: ["ウィーアー!", "冒険夜想曲", "RUN! RUN! RUN!", "believe"],
         answerIndex: 0
       },
       {
