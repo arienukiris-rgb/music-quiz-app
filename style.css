@@ -1,0 +1,260 @@
+:root {
+  --bg: #12131a;
+  --surface: #1c1e29;
+  --surface-2: #262938;
+  --text: #f2f2f7;
+  --text-muted: #9a9cb0;
+  --accent: #7c5cff;
+  --accent-2: #ff5c9e;
+  --correct: #3ddc84;
+  --incorrect: #ff5c5c;
+  --radius: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding: 24px 16px 60px;
+  background: linear-gradient(160deg, #15161f 0%, #1b1c2a 100%);
+  background-attachment: fixed;
+  transition: background 0.5s ease;
+}
+
+/* ジャンル選択画面（最初のページ）だけ、彩り豊かなグロー背景にする */
+body[data-screen="genre"] {
+  background:
+    radial-gradient(circle at 12% 12%, rgba(124, 92, 255, 0.38), transparent 42%),
+    radial-gradient(circle at 88% 20%, rgba(255, 92, 158, 0.30), transparent 48%),
+    radial-gradient(circle at 50% 95%, rgba(61, 220, 132, 0.18), transparent 50%),
+    linear-gradient(160deg, #15161f 0%, #1b1c2a 100%);
+  background-attachment: fixed;
+}
+
+.screen {
+  width: 100%;
+  max-width: 480px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* ---- ジャンル選択画面 ---- */
+#screen-genre {
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 12px 0 4px;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  margin-bottom: 28px;
+}
+
+.genre-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.genre-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 24px 12px;
+  border-radius: var(--radius);
+  border: 1px solid rgba(255,255,255,0.08);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.12s ease, background 0.12s ease;
+}
+
+.genre-btn:hover {
+  background: var(--surface-2);
+  transform: translateY(-2px);
+}
+
+.genre-btn:active {
+  transform: translateY(0);
+}
+
+.genre-emoji {
+  font-size: 32px;
+}
+
+/* ---- クイズ画面 ---- */
+.quiz-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.genre-badge {
+  background: var(--surface-2);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.question-box {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 28px 20px;
+  margin-bottom: 20px;
+  min-height: 96px;
+  display: flex;
+  align-items: center;
+}
+
+.question-text {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.choice-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.choice-btn {
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 16px;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+
+.choice-btn:hover:not(:disabled) {
+  background: var(--surface-2);
+  border-color: var(--accent);
+}
+
+.choice-btn:disabled {
+  cursor: default;
+}
+
+.choice-btn.correct {
+  background: rgba(61, 220, 132, 0.15);
+  border-color: var(--correct);
+  color: var(--correct);
+  font-weight: 700;
+}
+
+.choice-btn.incorrect {
+  background: rgba(255, 92, 92, 0.15);
+  border-color: var(--incorrect);
+  color: var(--incorrect);
+  font-weight: 700;
+}
+
+.feedback {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 18px;
+}
+
+.feedback-correct {
+  color: var(--correct);
+}
+
+.feedback-incorrect {
+  color: var(--incorrect);
+}
+
+.btn-next {
+  width: 100%;
+  margin-top: 18px;
+  padding: 16px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-next:hover {
+  opacity: 0.92;
+}
+
+/* ---- 結果画面 ---- */
+#screen-result {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.result-score {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 20px 0 8px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.result-message {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 16px;
+}
+
+.result-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.result-buttons button {
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#btn-retry {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  border: none;
+  color: #fff;
+}
+
+.result-buttons button:hover {
+  opacity: 0.9;
+}

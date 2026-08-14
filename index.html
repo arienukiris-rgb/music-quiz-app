@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>音楽クイズ</title>
+<link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+
+  <!-- ジャンル選択画面 -->
+  <section id="screen-genre" class="screen">
+    <h1>🎵 音楽クイズ</h1>
+    <p class="subtitle">ジャンルを選んでスタート！</p>
+    <div id="genre-list" class="genre-list">
+      <!-- ここにジャンルボタンがJSで生成される -->
+    </div>
+  </section>
+
+  <!-- クイズ画面 -->
+  <section id="screen-quiz" class="screen hidden">
+    <div class="quiz-header">
+      <span id="quiz-genre-name" class="genre-badge"></span>
+      <span id="quiz-progress" class="progress"></span>
+      <span id="quiz-score" class="score"></span>
+    </div>
+    <div class="question-box">
+      <p id="question-text" class="question-text"></p>
+    </div>
+    <div id="choice-list" class="choice-list">
+      <!-- ここに選択肢ボタンがJSで生成される -->
+    </div>
+    <div id="feedback" class="feedback hidden"></div>
+    <button id="btn-next" class="btn-next hidden">次の問題へ →</button>
+  </section>
+
+  <!-- 結果画面 -->
+  <section id="screen-result" class="screen hidden">
+    <h2>結果発表</h2>
+    <p id="result-score" class="result-score"></p>
+    <p id="result-message" class="result-message"></p>
+    <div class="result-buttons">
+      <button id="btn-retry">同じジャンルでもう一度</button>
+      <button id="btn-back-genre">ジャンル選択に戻る</button>
+    </div>
+  </section>
+
+  <script src="questions.js?v=2"></script>
+  <script src="script.js?v=2"></script>
+</body>
+</html>
