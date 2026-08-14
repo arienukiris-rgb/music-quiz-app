@@ -245,6 +245,40 @@ h1 {
   font-size: 16px;
 }
 
+.share-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.share-btn {
+  flex: 1;
+  padding: 14px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.share-x {
+  background: #000;
+  color: #fff;
+}
+
+.share-x:hover {
+  background: #222;
+}
+
+.share-line {
+  background: #06c755;
+  color: #fff;
+}
+
+.share-line:hover {
+  opacity: 0.9;
+}
+
 .result-buttons {
   display: flex;
   flex-direction: column;

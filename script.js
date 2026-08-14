@@ -35,6 +35,8 @@ const resultScoreEl = document.getElementById("result-score");
 const resultMessageEl = document.getElementById("result-message");
 const btnRetry = document.getElementById("btn-retry");
 const btnBackGenre = document.getElementById("btn-back-genre");
+const shareXEl = document.getElementById("share-x");
+const shareLineEl = document.getElementById("share-line");
 
 // --- 画面の切り替え ---
 function showScreen(name) {
@@ -154,6 +156,13 @@ function showResult() {
   else if (rate >= 0.4) message = "もう少し！もう一度挑戦してみよう。";
   else message = "このジャンル、これから詳しくなろう！";
   resultMessageEl.textContent = message;
+
+  // SNSシェア用のリンクを組み立てる
+  const genre = QUIZ_DATA[state.genreKey];
+  const shareText = `🎵音楽クイズ「${genre.name}」で ${state.score}/${total} 問正解しました！`;
+  const shareUrl = location.href.split("#")[0];
+  shareXEl.href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}&hashtags=%E9%9F%B3%E6%A5%BD%E3%82%AF%E3%82%A4%E3%82%BA`;
+  shareLineEl.href = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareText)}`;
 
   showScreen("result");
 }
