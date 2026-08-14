@@ -131,6 +131,10 @@ function handleChoice(clickedBtn, choiceText) {
   feedbackEl.classList.toggle("feedback-incorrect", !isCorrect);
 
   quizScoreEl.textContent = `正解数: ${state.score}`;
+
+  // 最後の問題なら「採点へ」、それ以外は「次の問題へ」とボタンの文言を変える
+  const isLastQuestion = state.currentIndex === state.questions.length - 1;
+  btnNext.textContent = isLastQuestion ? "採点へ →" : "次の問題へ →";
   btnNext.classList.remove("hidden");
 }
 
